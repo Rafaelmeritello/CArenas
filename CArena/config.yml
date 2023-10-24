@@ -1,0 +1,59 @@
+adminmessageprefix: "&c[/Carena]"
+playermessageprefix: "&c[/arena]"
+
+
+
+
+
+enviar_broadcast_ao_entrar_na_arena_especial: true
+broadcast_ao_entrar_na_arena_especial: "&f@jogador &bEntrou na arena &c @arena"
+
+
+
+
+enviar_broadcast_ao_entrar_na_arena_normal: true
+broadcast_ao_entrar_na_arena_normal: "&f@jogador &bEntrou na arena &c @arena"
+
+
+Delay_ao_sair: 3 #segundos
+
+titulogui: "&bArenas"
+
+comandos_permitidos:
+
+   - "/g"
+   
+  
+# mensagem se o usuario não tiver permissão para usar o /carena
+sem_permissão_mensagem: "&cSem permissão para isso"
+
+
+comando_nao_permitido: "&c Você não pode usar comandos na arena, digite /arena sair para sair da arena"
+
+# mensagem ao ser enviada quando um admin limpar os jogadores de todas as arenas
+limpar_arenas_broadcast: "&f @admin &b retirou todas os jogadores das arenas"
+
+
+# Mensagem caso a arena esteja em manutenção
+mensagem_arena_manutencao: "&c A arena @arena esta em manutenção no momento"
+
+
+# mensagem ao ser enviada quando um admin limpar os jogadores de uma arena especifica
+limpar_arena_broadcast: "&f@admin &b retirou todos os jogadores da arena @arena"
+
+player_mover_ao_sair: "&c Teleporte cancelado"
+
+
+#mensagem a ser enviada caso o jogador mecha no inventario estando em uma arena especial
+mecher_inventario: "@prefix &cNesta arena não é permitido usar o inventario, digite /arena sair"
+
+anunciar_ldr_na_entrada: false
+liderou_arena:
+  - ""
+  - "@prefix @player esta liderando a arena @arena"
+  - ""
+
+
+Arena_entrou_manu:
+   - "&ca arena @arena entrou em manutencao"
+  

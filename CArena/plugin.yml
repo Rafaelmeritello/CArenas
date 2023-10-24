@@ -1,0 +1,15 @@
+name: CArena
+api: '*'
+version: '1.0'
+main: com.carena.main
+description: Um plugin de arenas
+commands:
+  arena:
+    description: Comando de arenas
+    usage: §cComando invalido, digite /arenas para ver as arenas disponiveis
+  arenas:
+    description: Comando de arenas
+    usage: §cComando invalido, digite /arenas para ver as arenas disponiveis
+  CArena:
+    description: Comando de administração das arenas
+    usage: §cDigite /carena (comando) (arena). se precisar de ajuda digite /carena ajuda
